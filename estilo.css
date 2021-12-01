@@ -15,6 +15,26 @@ html {
 body{
 	margin: 0;
 }
+.finalbar{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 500px;
+	width: 54%;
+	color:#657786;
+	
+}
+.finalbar h3{
+	color:#50585f;
+	font-size: 152%;
+	margin-bottom: 50px;
+	
+}
+.finalbar p{
+	padding-bottom: 30px;
+	border-bottom: 2px solid #e6ecf0;
+}
 .space{
 	background-color: #497bad;
 	width: 100%;
@@ -143,9 +163,12 @@ nav li a.active {
 
 .img1{
 	margin-top:50px;
-	margin-left: 20%;
-	height: 25rem;
+	margin-left: 12%;
+	width: 400px;
+  	height: 400px;
+	/*height: 25rem;*/
 	float:left;
+	object-fit:scale-down;
 }
 .tag{
 	margin-left: 55%;
@@ -254,7 +277,7 @@ img {
 	
 	
 		width: 100%;
-		height: 66rem;
+		height: 60rem;
 		display: block;
 		border-bottom: 2px solid #e6ecf0;
 		border-top: 2px solid #e6ecf0;
@@ -278,7 +301,7 @@ img {
 	
 		background-color: #497bad;
 		width: 100%;
-		height: 66rem;
+		height: 60rem;
 		display: block;
 		border-bottom: 2px solid #e6ecf0;
 		border-top: 2px solid #e6ecf0;
@@ -302,15 +325,15 @@ img {
 	
 	.img1{
 		margin-top:50px;
-		
-    	
+		margin-left: 15%;
+    	width: 250px;
 		height: 20rem;
 		
 		/*float:top;*/
 	}
 	.tag{
 		text-align: center;
-		margin-left: 40%;
+		margin-left: 35%;
 		margin-top: 20%;
 		
 		
@@ -327,12 +350,14 @@ img {
 	.tag img{
 		
 		margin: 5px 0px;
-		display: inline;
-	
-		margin-right: -10px;
+		display: inline-block;
+		
+		margin-right: -20;
 		height: 50px;
 	}
-	
+	.finalbar{
+		width: 80%;
+	}
 
 
 
